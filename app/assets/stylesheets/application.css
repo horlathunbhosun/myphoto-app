@@ -11,5 +11,13 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
+ *= require css/feather/style.min.css
+ *= require css/simple-line-icons/style.css
+ *= require font-awesome
+ *= require vendors/perfect-scrollbar.min.css
+ *= require vendors/prism.min.css
+ *= require css/app.css
+ *= require vendors/toastr.css
+
  *= require_self
  */
